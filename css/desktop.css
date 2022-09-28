@@ -1,0 +1,35 @@
+@media (min-width: 950px) {
+  /*PADDING TOP EN EL BODDY PARA QUE EL TEXTO BIENVENIDOS ARRANQUE ABAJO DEL NAVBAR*/
+  body {   
+    padding-top: 117px;
+  }
+  /*CAMBIAMOS TAMAÑO DE LOGO PARA MAYOR RESOLUCION*/
+  .img-logo {
+    height: 107px;
+    width: 135px;
+    border-style: none;
+  }
+  /*PADDING A LOS LINKS DEL NAVBAR */
+  .menu li {
+    padding: 0 15px;
+  }
+  /*LINKS DEL NAVBAR*/
+  .menu a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 93px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  /*PONEMOS EN LINEA LAS CARTAS DE QUERES VIAJAR*/
+  .cartas-container {
+    flex-direction: row;
+  }
+  /*AUMENTAMOS EL LARGO DE LAS CARTAS PARA MEJOR VISTA*/
+  .carta{
+    height: 260px;
+  }  
+}
+
+

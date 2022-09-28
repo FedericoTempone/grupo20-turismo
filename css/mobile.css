@@ -1,0 +1,60 @@
+@media (max-width: 950px) {
+
+  /*IMAGEN LOGO DEL NAVBAR*/
+
+  .img-logo {
+    height: 65px;
+    width: 85px;
+    padding-top: 3px;
+  }
+
+  /*TODO EL MENU QUE SE DESPLIEGA AL TOCAR EL BOTON HAMBURGUESA*/
+  .menu {
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: #3A4460;
+    height: 100%;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+
+  .menu a {
+    color: white;
+    line-height: 60px;
+  }
+
+  /*CLASES QUE PONEMOS CON JAVASCRIPT PARA OCULTAR Y MOSTRAR EL MENU AL TOCAR CLICK EN EL BOTON HAMBURGUESA*/
+  .open-menu,
+  .close-menu {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .menu_opened {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .close-menu {
+    align-self: flex-end;
+    padding: 20px 15px;
+  }
+
+  .open-menu:focus:not(:focus-visible),
+  .close-menu:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  .close-icon {
+    padding: 8px 1px 0px 3px;
+  }
+
+}

@@ -1,0 +1,233 @@
+/*ESTILOS GENERALES*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 87px;
+  background-color: #fff;
+}
+
+/*BOTON FLOTANTE DE WHATSAPP*/
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100000 !important;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+.whatsapp:hover {
+  transition: all .3s;
+  transition-duration: 1s;
+  filter: opacity(.5);
+}
+
+
+/*PRIMER TITULO DEL BODY (BIENVENIDOS A TURISMO GRUPO 20)*/
+.welcome-index {
+  align-items: center;
+  color: #ee95b6;
+  display: flex;
+  z-index: 99;
+  justify-content: center;
+  flex-direction: column
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  text-align: center;
+}
+
+/*SECCION ARTICULO QUERES VIAJAR*/
+
+/*BOTON DEL ARTICULO (VER MAS) DEBAJO DE QUERES VIAJAR */
+.btn-article button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+  color: white;
+  background-color: blueviolet;
+}
+
+.btn-article {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+/*TEXTO QUERES VIAJAR Y DESCUBRI LOS MARAVILLOSOS...*/
+.text-article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*CONTENEDORES DE LAS CARTAS QUE VAN A CONTENER LAS IMAGENES*/
+
+.carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 92px 0px;
+  margin: 5px;
+  border-radius: 15px;
+  height: 105px;
+  width: 90%;
+}
+
+.cartas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*TEXTO DE LA CARTA*/
+
+.carta h3 {
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  font-size: 2em;
+}
+
+/*IMAGENES DE LAS CARTAS */
+
+.carta:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/article/salta-article.jpg);
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/article/mendoza-article.jpg);
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/article/brc-article.jpg);
+}
+
+.carta:nth-child(4) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/article/caminito-article.jpg);
+}
+
+/*-------------SECCION LA NATURALEZA TE LLAMA---------------*/
+
+/*IMAGEN DE LAS LLAMAS DE LA NATURALEZA TE LLAMA*/
+.content-container {
+  height: 500px;
+  background-image: linear-gradient(0deg, rgba(5, 4, 2, 0.8), rgba(13, -11, -26, -2.5)), url(../imagenes/content/naturaleza.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+/*TEXTO DE LA NATURALEZA TE LLAMA*/
+.content-container h4 {
+  position: relative;
+  top: 40%;
+  font-size: 1.8em;
+  color: white;
+}
+
+.content-container p {
+  position: relative;
+  top: 37%;
+  color: white;
+  font-size: 1.2em;
+}
+
+/*BOTON DE LA NATURALEZA TE LLAMA*/
+.content-container button {
+  position: relative;
+  top: 55%;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+  color: white;
+  background-color: blueviolet;
+}
+
+/* -------------SECCION PREVIAJE------------ */
+
+/*IMAGEN DE PREVIAJE*/
+.previaje-content {
+  height: 500px;
+  background-image: linear-gradient(0deg, rgba(5, 4, 2, 0.8), rgba(13, -11, -26, -2.5)), url(../imagenes/content/previaje.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+/*TEXTO DEL PREVIAJE*/
+.previaje-content h4 {
+  position: relative;
+  top: 40%;
+  font-size: 1.8em;
+  color: white;
+}
+
+.previaje-content p {
+  position: relative;
+  top: 37%;
+  color: white;
+  font-size: 1.2em;
+}
+
+/*BOTON DEL PREVIAJE*/
+
+.previaje-content button {
+  position: relative;
+  top: 55%;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+  color: white;
+  background-color: blueviolet;
+}
+
+/*FOOTER */
+
+footer {
+  display: flex;
+  margin: 25px;
+  justify-content: center;
+  text-align: center;
+}
+
+footer img {
+  margin: 5px;
+}
+
+.copyright {
+  position: absolute;
+  right: 10px;
+}
+
+footer h5 {
+  font-size: 0.8em;
+}

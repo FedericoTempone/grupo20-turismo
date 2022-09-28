@@ -1,0 +1,96 @@
+@import url("./desktop.css");
+
+
+/* NAVBAR */
+
+.topheader {
+  box-shadow: 0 4px 7px 0 rgb(0 0 0 / 42%);
+  position: fixed;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.img-logo {
+  height: 107px;
+  width: 135px;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/*efectos animados logo del navbar*/
+.hvr-bounce-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.hvr-bounce-out:hover,
+.hvr-bounce-out:focus,
+.hvr-bounce-out:active {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* estilo por defecto de todos los links*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*links del navbar (experiencia, nosotros, contacto, etc)*/
+.menu a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 93px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.menu a:hover {
+  color: #ee95b6;
+}
+
+/* AL TOCAR EL BOTON HAMBURGUESA EN VERSION MOBILE SE DESPLIEGA ESTE MENU (INICIO EXPERIENCIA CONTACTO ETC) */
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.open-menu,
+.close-menu {
+  display: none;
+}
+
+
+/*UBICACION DEL BOTON DE CERRAR, DEL MENU DEL NAV BAR*/
+
+.close-icon {
+  padding: 8px 1px 0px 3px;
+}
+
+
+
+
+
+/*BOTON DE CERRAR EL MENU DESPLEGABLE DEL NAVBAR*/
