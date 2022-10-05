@@ -1,6 +1,5 @@
 @import url("./desktop.css");
 
-
 /* NAVBAR */
 
 .topheader {
@@ -10,7 +9,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 99;
+  z-index: 999;
 }
 
 .img-logo {
@@ -64,7 +63,7 @@ a {
 }
 
 .menu a:hover {
-  color: #ee95b6;
+  color: blueviolet;
 }
 
 /* AL TOCAR EL BOTON HAMBURGUESA EN VERSION MOBILE SE DESPLIEGA ESTE MENU (INICIO EXPERIENCIA CONTACTO ETC) */
@@ -88,9 +87,3 @@ a {
 .close-icon {
   padding: 8px 1px 0px 3px;
 }
-
-
-
-
-
-/*BOTON DE CERRAR EL MENU DESPLEGABLE DEL NAVBAR*/

@@ -10,4 +10,9 @@
         height: 400px;
         width: 266px;
     }
+
+    /*TITULO DENTRO DEL SLIDER (BIENVENIDOS)*/
+    .welcome-index {
+        top: 50%;
+    }
 }

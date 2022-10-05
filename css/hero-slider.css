@@ -23,6 +23,7 @@
 	top:0px;
 	left:0px;
 	max-width: none;
+	filter: brightness(0.8);
 }
 .nivo-main-image {
 	display: block !important;

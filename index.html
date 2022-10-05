@@ -15,16 +15,20 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500;700&display=swap" rel="stylesheet">
 
   <!-- LINKEO DE ARCHIVOS -->
 
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/smallDevices.css">
   <link rel="stylesheet" href="css/navbar.css" />
   <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="themes/default/default.css">
   <link rel="stylesheet" href="css/hero-slider.css">
   <link rel="stylesheet" href="css/fullHD.css">
-
 
 </head>
 
@@ -60,12 +64,13 @@
 
   <!-- SECCION BANNER -->
   <section id="hero">
+    <div class='welcome-index'>
+      <h1 class='h1-hero'> DESCUBRÍ TU PRÓXIMO DESTINO </h1>
+      <button id='botonHero'>MÁS INFO</button>
+    </div>
     <div class="slider-wrapper theme-default">
-      <div class="welcome-index">
-        <h1>BIENVENIDOS A TURISMO GRUPO 20</h1>
-      </div>
       <div id="slider" class="nivoSlider">
-        <img src="./imagenes/paisajes/patagonia.jpg" alt="imagen de patagonia" />
+        <img id="imagenButton" src="./imagenes/paisajes/cerro-catedral.jpg" alt="imagen de patagonia" />
         <img src="./imagenes/paisajes/brc.jpg" alt="imagen de bariloche" />
         <img src="./imagenes/paisajes/mendoza.jpg" alt="imagen de mendoza" />
         <img src="./imagenes/paisajes/salta.jpg" alt="imagen de salta" />
@@ -95,7 +100,7 @@
       </div>
     </div>
     <div class="btn-article">
-      <button type="button" class="btn-article"><a href=""></a>Chusmea Acá</button>
+      <button id="btn-chusmea" type="button" class="btn-article"><a href="">CHUSMEÁ ACÁ</a></button>
     </div>
   </section>
 
@@ -105,7 +110,7 @@
     <div class="content-container">
       <h4>LA NATURALEZA TE LLAMA</h4>
       <p>¿Que Esperas?</p>
-      <button type="button">VER MÁS</button>
+      <button id="btn-naturaleza" type="button"><a href="">VER MÁS</a></button>
     </div>
   </section>
 
@@ -115,7 +120,7 @@
     <div class="previaje-content">
       <h4>PREVIAJE</h4>
       <p>ESCAPADAS QUE NO SE TE PUEDEN ESCAPAR</p>
-      <button type="button">VER MÁS</button>
+      <button id="btn-previaje" type="button"><a href="">VER MÁS</a></button>
     </div>
   </section>
   /
@@ -147,7 +152,6 @@
     <p>© provided by codo a codo 2022 - Grupo 20 </p>
   </div>
 
-
   <!-- SECCION JAVASCRIPT -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
   <script src="js/jquery-3.1.1.min.js"></script>
@@ -159,7 +163,8 @@
     }); 
   </script>
   <script src="js/app.js"></script>
-
+  
 </body>
 
 </html>
+

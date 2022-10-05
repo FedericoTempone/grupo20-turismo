@@ -1,0 +1,61 @@
+@media (max-width: 500px) {
+    
+    /*TITULO DENTRO DEL SLIDER (BIENVENIDOS)*/
+
+    .welcome-index h1 {
+        font-size: 1rem;
+    }
+
+    .welcome-index {
+        top: 23% !important;
+    }
+
+    .welcome-index button {
+        font-size: 0.5rem;
+        height: 11px;
+        width: 68px;
+    }
+
+    /*IMAGENES DEL ARTICULO DEBAJO DEL SLIDER*/
+
+    .carta {
+        padding: 68px 0px;
+        margin: 5px;
+        height: 20px;
+        width: 80%;
+    }
+
+    .text-article {
+        line-height: 15px;
+    }
+
+    /*SECCION CONTENIDO LA NATURALEZA TE LLAMA QUE ESPERAS*/
+
+    .content-container {
+        height: 322px;
+    }
+
+    .content-container button {
+        top: 36%;
+        font-size: 0.8rem;
+    }
+
+    /*SECCION CONTENIDO PREVIAJE*/
+
+    .previaje-content {
+        height: 290px;
+    }
+
+    .previaje-content button {
+        top: 35%;
+        font-size: 0.7rem;
+    }
+
+    /*COPYRIGHT*/
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+
+}

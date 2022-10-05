@@ -30,6 +30,11 @@
   .carta{
     height: 260px;
   }  
+  
+  /*TITULO DENTRO DEL SLIDER (BIENVENIDOS)*/
+  .welcome-index {
+    top: 50%;
+  }
 }
 
 
