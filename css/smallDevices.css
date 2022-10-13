@@ -56,6 +56,22 @@
     .copyright p {
         font-size: 13px;
     }
+    
+    /*PAGINA EXPERIENCIAS*/
+    #destacadas{
+        height: 164vh;
+    }
+    
+    #destacadas img{
+        height: 252px;
+    }
 
+    #destacadas h2{
+        font-size: 2rem;
+    }
+
+    #destacadas h3{
+        margin-top: 108px;
+    }
 
 }

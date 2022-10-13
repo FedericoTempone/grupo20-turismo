@@ -35,6 +35,21 @@
   .welcome-index {
     top: 50%;
   }
+
+  /*PAGINA EXPERIENCIAS*/
+  #destacadas {
+    height: 278vh;
+  }
+
+  #destacadas img{
+    height: 430px;
+    margin-bottom: 15px;
+  }
+
+  #destacadas h3{
+    margin: 183px 34px;
+    font-size: 2rem;
+  }
 }
 
 

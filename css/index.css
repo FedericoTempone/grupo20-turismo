@@ -285,3 +285,51 @@ footer img {
 footer h5 {
   font-size: 0.8em;
 }
+
+/*PAGINA EXPERIENCIAS*/
+
+video {
+  width: 100%;
+}
+
+#destacadas {
+  display: flex;
+  flex-direction: column;
+  height: 203vh;
+  overflow: hidden;
+}
+
+#destacadas h2{
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: #61646e;
+}
+
+#destacadas h3{
+  text-align: center;
+  position: absolute;
+  color: white;
+  margin: 138px 34px;
+  font-size: 1.4rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#destacadas img{
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+  height: 310px;
+  width: 90%;
+}
+
+.container-destacadas-img{
+  display: flex;
+  justify-content: center;
+  height: 549px;
+  margin: 10px;
+}
+
+.container-destacadas-img:hover{
+  -webkit-transform:scale(0.5);transform:scale(1.1);
+}
