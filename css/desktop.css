@@ -33,22 +33,26 @@
   
   /*TITULO DENTRO DEL SLIDER (BIENVENIDOS)*/
   .welcome-index {
-    top: 50%;
+    top: 35%;
   }
 
   /*PAGINA EXPERIENCIAS*/
   #destacadas {
-    height: 278vh;
+    height: 100%;
   }
 
   #destacadas img{
     height: 430px;
-    margin-bottom: 15px;
+    margin: 20px 0px;
   }
 
   #destacadas h3{
     margin: 183px 34px;
     font-size: 2rem;
+  }
+
+  .container-destacadas-img{
+    height: 100%;
   }
 }
 

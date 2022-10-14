@@ -295,13 +295,13 @@ video {
 #destacadas {
   display: flex;
   flex-direction: column;
-  height: 203vh;
+  height: 100%;
   overflow: hidden;
 }
 
 #destacadas h2{
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: underline;
   color: #61646e;
 }
@@ -315,21 +315,48 @@ video {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+#destacadas h4{
+  text-align: center;
+  margin: 0px auto;
+  text-decoration: underline;
+  color: blueviolet;
+  font-size: 1.4rem;
+  padding-top: 34px;
+}
+
+#destacadas h5 {
+  text-align: center;
+  margin: 0px auto;
+  padding: 20px;
+  color: #61646e;
+  line-height: 18px;
+  font-size: 1rem;
+}
+
 #destacadas img{
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
   height: 310px;
   width: 90%;
+  margin: 20px 0px;
+}
+
+#destacadas ul{
+  align-items: center;
+  line-height: 27px;
+  margin: 0px auto;
 }
 
 .container-destacadas-img{
   display: flex;
   justify-content: center;
-  height: 549px;
+  height: 321px;
+  /* height: 385px; */
   margin: 10px;
 }
 
 .container-destacadas-img:hover{
   -webkit-transform:scale(0.5);transform:scale(1.1);
 }
+
