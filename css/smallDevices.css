@@ -3,11 +3,11 @@
     /*TITULO DENTRO DEL SLIDER (BIENVENIDOS)*/
 
     .welcome-index h1 {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .welcome-index {
-        top: 23% !important;
+        top: 13% !important;
     }
 
     .welcome-index button {
@@ -72,6 +72,11 @@
 
     #destacadas h3{
         margin-top: 108px;
+    }
+
+    /*PAGINA NOSOTROS*/
+    .page-aboutUs-text {
+        font-size: 0.8rem;
     }
 
 }
