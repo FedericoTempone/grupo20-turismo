@@ -60,7 +60,24 @@
   /*TITULO DENTRO DEL SLIDER (BIENVENIDOS)*/
 
   .welcome-index {
-    top: 24%;
+    top: 16%;
+  }
+
+  /*PAGINA NOSOTROS*/
+
+  .aboutUs-img {
+    display: none;
+  }
+
+  .page-aboutUs-text {
+    text-align: center;
+  }
+
+  /*PAGINA CONTACT FORM*/
+
+  #container-form{
+    width: 80% !important;
+    grid-template-columns: repeat(1,1fr) !important;
   }
 
 }

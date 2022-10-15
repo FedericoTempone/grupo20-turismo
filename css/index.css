@@ -51,7 +51,7 @@ body {
 }
 
 .welcome-index h1 {
-  font-size: 1.9rem;
+  font-size: 1.3rem;
 }
 
 .welcome-index button {
@@ -360,3 +360,46 @@ video {
   -webkit-transform:scale(0.5);transform:scale(1.1);
 }
 
+/*PAGINA NOSOTROS*/
+
+#page-aboutUs-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-aboutUs-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 20px;
+}
+
+.page-aboutUs-text h1{
+  color: blueviolet;
+}
+
+.page-aboutUs-text h2{
+  color: #61646e;
+}
+
+
+.aboutUs-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.aboutUs-img img {
+  display: flex;
+  height: 303px;
+  width: 356px;
+  border-radius: 8px;
+  margin: 5px;
+}
