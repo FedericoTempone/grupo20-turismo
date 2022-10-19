@@ -9,7 +9,7 @@ Este proyecto está desarrollado con las siguientes tecnologías y herramientas 
 - ![js-logo](https://img.icons8.com/color/25/000000/javascript--v1.png) JavaScript
 - ![git-logo](https://img.icons8.com/color/25/000000/git.png) Control de versiones con GIT
 - ![jquery-logo](https://img.icons8.com/ios/20/jquery.png) Libreria Jquery (importado)
-- ![api-logo](https://img.icons8.com/ios-glyphs/20/api-settings.png) Api Rest
+- ![api-logo](https://img.icons8.com/ios-glyphs/20/api-settings.png) Api de Open Weather
 
 
 **Ante cualquier inquietud sientase en la libertad de consultar**<br>
