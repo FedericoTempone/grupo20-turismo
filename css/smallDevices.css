@@ -67,7 +67,7 @@
     }
 
     #destacadas h2{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     #destacadas h3{
@@ -77,6 +77,48 @@
     /*PAGINA NOSOTROS*/
     .page-aboutUs-text {
         font-size: 0.8rem;
+    }
+
+    /* seccion iframe */
+
+    iframe{
+        height: 15rem;
+        width: 16rem;
+    }
+
+    /* PAGINA DE CONTACTO SECCION FORMULARIO */
+
+    #container-form{
+        margin-top: 0px;
+        padding: 5px;
+    }
+
+    .info-form{
+        padding: 0px;
+    }
+    
+
+    /* PAGINA DE CONTACTO SECCION API-REST */
+
+    .wrapper header {
+        font-size: 0.8rem ;
+    }
+
+    .wrapper {
+        width: 14rem;
+        height: 16rem;
+    }
+
+    .input-part input {
+        font-size: 0.4rem;
+    }
+
+    .separator::before {
+        font-size: 0.7rem;
+    }
+
+    .input-part :where(input, button) {
+        font-size: 0.5rem;
     }
 
 }

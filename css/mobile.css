@@ -73,6 +73,12 @@
     text-align: center;
   }
 
+  /* SECCION IFRAME */
+  iframe{
+    height: 20rem;
+    width: 22rem;
+  }
+
   /*PAGINA CONTACT FORM*/
 
   #container-form{

@@ -54,6 +54,12 @@
   .container-destacadas-img{
     height: 100%;
   }
+
+  /*PAGINA CONTACTO SECCION API*/
+  .api-rest {
+    height: 500px !important;
+  }
+
 }
 
 

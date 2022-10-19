@@ -1,7 +1,8 @@
 @media (min-width: 1200px){
     /*APLICAR ESTILOS PARA AMPLIOS MONITORES O TELEVISORES DE MAYOR RESOLUCION*/
 
-    /*EJEMPLO: MODIFICAMOS LAS CARTAS DE QUERES VIAJAR, PARA QUE SE CENTREN SIN OCUPAR TODO EL ANCHO DISPONIBLE
+    /*EJEMPLO: MODIFICAMOS LAS CARTAS DE QUERES VIAJAR EN LA PAGINA INDEX.HTML
+     PARA QUE SE CENTREN SIN OCUPAR TODO EL ANCHO DISPONIBLE
      Y SE ALARGEN PARA MEJOR VISTA */
     .cartas-container{
         justify-content: center;
@@ -11,8 +12,21 @@
         width: 266px;
     }
 
+    /*PAGINA INDEX  */
+
+    .topnav {
+        max-width: 1500px;
+    }
+
     /*TITULO DENTRO DEL SLIDER (BIENVENIDOS)*/
     .welcome-index {
         top: 300px;
+    }
+
+    /* PAGINA NOSOTROS SECCION IFRAME */
+    iframe{
+        width: 100%!important;
+        border-radius: 0px;
+        height: 35rem!important;
     }
 }

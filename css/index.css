@@ -27,7 +27,7 @@ body {
 }
 
 .whatsapp-icon {
-  margin-top: 13px;
+  margin-top: 15px;
 }
 
 .whatsapp:hover {
@@ -403,3 +403,30 @@ video {
   border-radius: 8px;
   margin: 5px;
 }
+
+.iframe-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+iframe{
+  height: 26rem;
+  width: 30rem;
+  border-radius: 1rem;
+  margin: 0.9rem;
+}
+
+.iframe-text h3 {
+  color: blueviolet;
+  font-style: 1.4rem;
+  font-weight: bold;
+}
+
+.iframe-text h4 {
+  color: #61646e;
+  font-size: 0.8rem;
+}
+

@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/fadc21d84a.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./imagenes/api-rest-img/snowflake.ico" type="image/x-icon">
 
   <!-- LINKEO DE ARCHIVOS -->
 
@@ -23,8 +24,11 @@
   <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="themes/default/default.css">
   <link rel="stylesheet" href="css/hero-slider.css">
+  <link rel="stylesheet" href="css/desktop.css">
   <link rel="stylesheet" href="css/fullHD.css">
   <link rel="stylesheet" href="css/contact-form.css">
+  <link rel="stylesheet" href="css/api-style.css">
+  <link rel="stylesheet" href="css/smallDevices.css">
 </head>
 
 
@@ -64,13 +68,15 @@
   <section id="container-form">
     <div class="info-form">
       <h2>Contáctanos</h2>
-      <h3>Trabajamos por pedidos. <br> Nuestro horario de atencion es de Lunes a Viernes de 09:00 a 18hs, ante consultas
+      <h3>Trabajamos únicamente con Reservas. <br> Nuestro horario de atencion es de Lunes a Viernes de 09:00 a 18hs, ante consultas
         o sugerencias dejanos tu mensaje. Gracias !</h3>
-      <a Target="_blank" href="www.instagram.com.ar"><i class="fa-brands fa-instagram"></i> Seguinos en Instagram</a>
-      <a Target="_blank" href="www.facebook.com"><i class="fa-brands fa-facebook"></i> Seguinos en Facebook </a>
-      <a Target="_blank" href="https://wa.me/1130607355?text=Me%20gustaría%20hacerte%20un%20pedido%20"><i
+      <a Target="_blank" href="https://www.instagram.com.ar"><i class="fa-brands fa-instagram"></i> Seguinos en Instagram</a>
+      <a Target="_blank" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i> Seguinos en Facebook </a>
+      <a Target="_blank" href="https://wa.me/1130607355?text=Me%20gustaría%20consultar%20por%20una%20experiencia%20"><i
           class="fa fa-phone"></i> 1130607355</a>
-      <a Target="_blank" href="mailto:fedetempone5@gmail.com"><i class="fa fa-envelope"></i>fedetempone5@gmail.com</a>
+      <a Target="_blank" href="https://mailto:fedetempone5@gmail.com"><i class="fa fa-envelope"></i>fedetempone5@gmail.com</a>
+      <a Target="_blank" href="https://mailto:mjuliag@gmail.com"><i class="fa fa-envelope"></i>mjuliag@gmail.com</a>
+      <a Target="_blank" href="https://mailto:zuritasilvanaisabel@gmail.com"><i class="fa fa-envelope"></i>zuritasilvanaisabel@gmail.com</a>
     </div>
 
     <form action="#" method="post" id="form" autocomplete="on">
@@ -84,14 +90,60 @@
     </form>
   </section>
 
-  <hr>
+  
+  <!-- SECCION API CLIMA -->
+
+  <section class="api-rest">
+    <div class="wrapper">
+      <header><i class="fas fa-arrow-left"></i>Clima en tu Ciudad</header>
+      <section class="input-part">
+        <p class="info-txt"></p>
+        <input type="text" placeholder="Introduzca el nombre de la Ciudad" spellcheck="false" required>
+        <div class="separator"></div>
+        <button>Obtener Información</button>
+      </section>
+      <section class="weather-part">
+        <img src="#" alt="Weather Icon">
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">_</div>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>_, _</span>
+        </div>
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class="fas fa-thermometer-half"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="fas fa-tint"></i>
+            <div class="details">
+              <span>_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+ 
 
   <!-- SECCION FOOTER -->
 
   <footer class="footer">
     <div>
       <h5>TURISMO GRUPO 20</h5>
-      <p>¡ El mundo es demasiado bonito como para viajar solo por internet !</p>
+      <p>© Todos los derechos reservados grupo 20 - codo a codo 💎</p>
       <a href="http://www.facebook.com">
         <img src="./icons/facebook.png" alt="facebook">
       </a>
@@ -115,6 +167,7 @@
 
 
   <!-- SECCION JAVASCRIPT -->
+  <script src="./js/api-rest.js"></script>
   <script src="./js/validation-form.js"></script>
   <script src="js/app.js"></script>
   <!-- fin del archivo -->
