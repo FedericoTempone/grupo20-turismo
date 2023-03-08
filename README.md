@@ -1,5 +1,6 @@
 # ![logo](https://img.icons8.com/office/24/airplane-take-off.png) Grupo 20 - Turismo ![logo](https://img.icons8.com/office/32/airplane-landing.png)
 Proyecto de Página Web Responsive Design, para el curso del Gobierno de la Ciudad de Buenos Aires, Codo a Codo.
+Ejercicio Realizado sin adaptación RESPONSIVE, por una cuestión de simplicidad.
 
 ## Lenguajes y Herramientas ##
 
